@@ -4,6 +4,10 @@ import com.example.cours8_apiservice.model.User;
 
 import java.util.ArrayList;
 
+/**
+ * Class qui contient nos donnees (users) et les manipule
+ * selon les actions possibles et declarees dans UserAPiService qui est ici implement
+ */
 public class FakeUserApiService implements UserApiService {
 
     ArrayList<User> users = new ArrayList<>();
